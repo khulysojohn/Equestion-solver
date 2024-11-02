@@ -2,15 +2,27 @@ body { font-family: Arial, sans-serif;
      display: flex;
       flex-direction: column;
        align-items: center;
+       background-color: lightcoral;
  }
-.container { max-width: 400px; 
-    padding: 20px; border: 
-    1px solid #ccc; 
+.container { 
+    max-width: 400px; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    background-color: rebeccapurple;
     margin-top: 20px; 
+}
+
+input{
+    margin-top: 1rem;
+    border-radius: 3px;
+    height: 1.3rem;
 }
 .result { margin-top: 10px; 
     padding: 10px; 
     border: 1px solid #aaa; 
+    background-color: #fff;
 }
-.toggle-button { margin-top: 10px;
+.toggle-button { 
+    margin-top: 10px;
  }
