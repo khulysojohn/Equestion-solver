@@ -17,12 +17,15 @@
     <label>Coefficient d (for cubic): <input type="number" id="d" value="0"></label><br>
 <hr>
     <h3>Select Action:</h3>
-    <select id="action">
-        <option value="solve">Solve for x</option>
-        <option value="factorize">Factorize</option>
-        <option value="product">Find Product</option>
-    </select>
-    <button class="toggle-button" onclick="calculate()">Calculate</button>
+    <div class="operation">
+        <select id="action">
+            <option value="solve">Solve for x</option>
+            <option value="factorize">Factorize</option>
+            <option value="product">Find Product</option>
+        </select>
+        <button class="toggle-button" onclick="calculate()">Calculate</button>
+    </div>
+    
 
     <div class="result" id="result"></div>
 </div>
